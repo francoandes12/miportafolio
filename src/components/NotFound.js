@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import { Helmet } from 'react-helmet'
 const NotFound = () => {
   return (
     <div className='container bg-white mt-3 mb-5'>
+      <Helmet>
+        <title>Pagina No Encontrada</title>
+      </Helmet>
       <h2 className='text-danger text-center'>
         Error 404! Pagina no encontrada
       </h2>

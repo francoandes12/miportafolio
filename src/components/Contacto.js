@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import { Helmet } from 'react-helmet'
 const Contacto = () => {
   const [formValues, setFormValues] = useState({
     name: '',
@@ -42,6 +43,13 @@ const Contacto = () => {
   const { name, email, number, mensaje, lastname } = formValues
   return (
     <div className='container bg-white mt-3'>
+      <Helmet>
+        <title>Contacto</title>
+        <meta
+          name='description'
+          content='En esta seccion,puedes ponerte en contacto conmigo completando el formulario'
+        />
+      </Helmet>
       <h1 className='text-center text-danger'>
         Contactame completando el formulario
       </h1>

@@ -1,9 +1,16 @@
 import React from 'react'
 import { skils } from './../data/skils'
-
+import { Helmet } from 'react-helmet'
 const About = () => {
   return (
     <div className='container bg-white mb-3 mt-3'>
+      <Helmet>
+        <title>Sobre Mi</title>
+        <meta
+          name='description'
+          content='Aqui encontraras informacion personal e informacion sobre mis skills'
+        />
+      </Helmet>
       <h1 className='text-center'>Sobre mi</h1>
       <div className='row'>
         <div className='col-12 col-md-6 bg-dark'>
