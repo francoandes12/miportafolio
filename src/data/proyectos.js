@@ -179,5 +179,35 @@ export const proyectos = [
     descripcion:
       'Proyecto MERN fullstack creado con react,react-big-calendar,moment,sweet alert,bootstrap,redux para el manejo de estado,jsonwebtoken,mongodb como base de datos,mongoose, node y express en el backend,entre otros.',
     url: 'https://mern-calendar-backend-app.herokuapp.com'
+  },
+  {
+    id: 27,
+    nombre: 'Netflix clone (diseño)',
+    descripcion: 'creado con css flexbox,gulp,sass y js.',
+    url: 'https://netdesign.netlify.app/'
+  },
+  {
+    id: 28,
+    nombre: 'Blog de Viajes',
+    descripcion: 'Creado con css flexbox,normalize y fontawesome.',
+    url: 'https://francoandes12.github.io/blogviajes/'
+  },
+  {
+    id: 29,
+    nombre: 'Pagina de Bienes Raices',
+    descripcion: 'Creado con css grid,normalize y fontawesome.',
+    url: 'https://francoandes12.github.io/bienes-raices/'
+  },
+  {
+    id: 30,
+    nombre: 'Freelancer web',
+    descripcion: 'Creado con css grid,fontawesome,normalize y js.',
+    url: 'https://francoandes12.github.io/freelancer/'
+  },
+  {
+    id: 31,
+    nombre: 'Airbnb clone (diseño)',
+    descripcion: 'Creado con css grid y flexbox,normalize,fontawesome y js.',
+    url: 'https://airbnbdesign.netlify.app/'
   }
 ]
