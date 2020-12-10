@@ -233,5 +233,18 @@ export const proyectosNode = [
     descripcion:
       'Es una aplicacion para generar una tabla de multiplicar en consola.Creado con NodeJs usando yargs y colors.',
     url: 'https://github.com/francoandes12/tabla-multiplicar'
+  },
+  {
+    id: 34,
+    nombre: 'App de consola-ClimaApp',
+    descripcion:
+      'Es una aplicacionde consola para obtener el clima de una ciudad.Creado con NodeJs, usando yargs,axios y la api de openwheather y OpenCage Geocoding API.',
+    url: 'https://github.com/francoandes12/appclima'
+  },
+  {
+    id: 35,
+    nombre: 'WebServer simple',
+    descripcion: 'WebServer creado con nodejs,express y hbs para las vistas.',
+    url: 'https://github.com/francoandes12/webserver'
   }
 ]
