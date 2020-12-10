@@ -5,37 +5,37 @@ const Carrousel = () => {
     <Carousel>
       <Carousel.Item>
         <a
-          href='https://francoandes12.github.io/giftApp/'
+          href='https://technostation.netlify.app/'
           target='_blank'
           rel='noopener noreferrer'>
           <img
             className='d-block w-100'
-            src='../assets/img/18.png'
-            alt='gif expert app captura'
+            src='../assets/img/5.png'
+            alt='Techno station'
           />
         </a>
       </Carousel.Item>
       <Carousel.Item>
         <a
-          href='https://cotizador-seguros-autos.netlify.app/'
+          href='https://andesnotas.netlify.app/'
           target='_blank'
           rel='noopener noreferrer'>
           <img
             className='d-block w-100'
-            src='../assets/img/15.png'
-            alt='cotizador de seguros captura'
+            src='../assets/img/21.png'
+            alt='journal App'
           />
         </a>
       </Carousel.Item>
       <Carousel.Item>
         <a
-          href='https://appdeheroes.netlify.app/'
+          href='https://amigurumiscarol.netlify.app/'
           target='_blank'
           rel='noopener noreferrer'>
           <img
             className='d-block w-100'
-            src='../assets/img/20.png'
-            alt='andes agencia captura'
+            src='../assets/img/19.png'
+            alt='amigurumis carol'
           />
         </a>
       </Carousel.Item>

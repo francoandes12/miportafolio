@@ -1,5 +1,5 @@
 import React from 'react'
-import { skils } from './../data/skils'
+import { skils, skilsReact } from './../data/skils'
 import { Helmet } from 'react-helmet'
 const About = () => {
   return (
@@ -26,7 +26,9 @@ const About = () => {
             Mi nombre es Franco Ibarra, tengo 24 años y naci en Córdoba
             Capital.Actualmente estudio en 3 año en la carrera Analista
             Universitario de Sistemas Informaticos.Hace 2 años empezo mi gusto
-            por la programacion web. <br />
+            por la programacion web.Me especializo en el frontend utilizando
+            React.
+            <br />
             <span className='text-danger'>Mis Skills:</span>
           </p>
           <ul className='list-group'>
@@ -36,22 +38,32 @@ const About = () => {
               </li>
             ))}
           </ul>
+          <span className='text-info'>React Skils</span>
+          <ul className='list-group'>
+            {skilsReact.map((skil) => (
+              <li key={skil} className='list-group-item'>
+                {[...skil]}
+              </li>
+            ))}
+          </ul>
           <span className='text-info'>Otras Lenguajes</span>
           <ul className='list-group'>
             <li className='list-group-item'>Lenguaje c#</li>
             <li className='list-group-item'>Winforms</li>
-            <li className='list-group-item'>ASP.net</li>
+            <li className='list-group-item'>ASP.net(basico)</li>
+          </ul>
+          <span className='text-info'>Base De datos</span>
+          <ul className='list-group'>
+            <li className='list-group-item'>SQL(basico)</li>
+            <li className='list-group-item'>Mongodb</li>
+            <li className='list-group-item'>Firebase Cloud Firestore</li>
           </ul>
           <span className='text-info'>Metodologias</span>
           <ul className='list-group'>
             <li className='list-group-item'>Impact Mapping y User Story</li>
             <li className='list-group-item'>Scrum</li>
-            <li className='list-group-item'>kanban</li>
-          </ul>
-          <span className='text-info'>Base De datos</span>
-          <ul className='list-group'>
-            <li className='list-group-item'>Mongodb</li>
-            <li className='list-group-item'>Firebase Cloud Firestore</li>
+            <li className='list-group-item'>Kanban</li>
+            <li className='list-group-item'>Clasica(Waterfall)</li>
           </ul>
           <p className='bg-dark text-white'>
             Actualmente me encuentro estudiando

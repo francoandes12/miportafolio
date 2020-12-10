@@ -1,19 +1,32 @@
 export const skils = [
   'Html-Css',
-  'Javascript',
+  'Css Grid-Flexbox',
   'Bootstrap',
-  'Pre-procesador Sass',
+  'Framework Materialize Css',
+  'Pre-procesador Css Sass',
   'Control de versiones con Git y Github',
-  'Node js y gestor de paquetes NPM',
+  'Javascript',
+  'Javascript Es6',
+  'Jquery',
   'Typescript',
   'Angular',
-  'React js',
+  'Firebase',
+  'Node js y gestor de paquetes NPM y Yarn',
+  'NodeJs',
+  'Express',
+  'Nodemailer',
+  'Deployment en Github , Heroku , Netlify y Vercel.'
+]
+export const skilsReact = [
+  'React fundamentos',
   'Hooks',
   'propTypes',
   'React Router',
   'styled Components',
   'testing with Jest-Enzyme',
-  'Redux',
+  'React Redux',
   'Material ui',
-  'Firebase'
+  'React Bootstrap',
+  'React Helmet',
+  'NextJs framework'
 ]
