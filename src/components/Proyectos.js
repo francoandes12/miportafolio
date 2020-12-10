@@ -1,9 +1,13 @@
-import React, { Suspense } from 'react'
-import { proyectos } from '../data/proyectos'
-import Skeleton from 'react-loading-skeleton'
+import React from 'react'
+import {
+  proyectosBasicos,
+  proyectosReact,
+  proyectosAngular,
+  proyectosNode
+} from '../data/proyectos'
+import { CargarProyectos } from '../helper/cargarProyectos'
 import { Helmet } from 'react-helmet'
 const Proyectos = () => {
-  const Card = React.lazy(() => import('./Card'))
   return (
     <div className='container bg-dark mt-3'>
       <Helmet>
@@ -13,13 +17,24 @@ const Proyectos = () => {
           content='Aqui encontraras todos mis proyectos realizados'
         />
       </Helmet>
-      <h1 className='text-center text-danger'>Mis Proyectos</h1>
+      <h1 className='text-center text-danger mb-2'>Mis Proyectos</h1>
       <div className='row'>
-        {proyectos.map((proyecto) => (
-          <Suspense fallback={<Skeleton count={5} />} key={proyecto.id}>
-            <Card key={proyecto.id} {...proyecto} />
-          </Suspense>
-        ))}
+        <div className='col-12 text-center text-warning bg-light mb-2 p-1 p-md-2'>
+          <h2>Proyectos basicos HTML-CSS-JS</h2>
+        </div>
+        <CargarProyectos proyectos={proyectosBasicos} />
+        <div className='col-12 text-center text-primary bg-light mb-2 p-1 p-md-2'>
+          <h2>Proyectos de Frontend con React</h2>
+        </div>
+        <CargarProyectos proyectos={proyectosReact} />
+        <div className='col-12 text-center text-danger bg-light mb-2 p-1 p-md-2'>
+          <h2>Proyectos de Frontend con Angular</h2>
+        </div>
+        <CargarProyectos proyectos={proyectosAngular} />
+        <div className='col-12 text-center text-success bg-light mb-2 p-1 p-md-2'>
+          <h2>Proyectos de Backend con NodeJs.</h2>
+        </div>
+        <CargarProyectos proyectos={proyectosNode} />
       </div>
     </div>
   )
