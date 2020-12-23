@@ -201,6 +201,20 @@ export const proyectosReact = [
     descripcion:
       'Es un blog creado con el framework Next js, siguiendo el tutorial de la pagina oficial de NextJs. En donde se aplican algunas funcionalidades que nos brinda Next js,como global css,static generation,rutas dinamicas y Api Routes.',
     url: 'https://blog-nextjs-xi-steel.vercel.app/'
+  },
+  {
+    id: 36,
+    nombre: 'Breaking Frases',
+    descripcion:
+      'creado con react,utilizando emotion y consultando una api de Breaking Bad.',
+    url: 'https://breaking-frase.netlify.app/'
+  },
+  {
+    id: 37,
+    nombre: 'Amazing Commerce',
+    descripcion:
+      'Pagina Ecommerce creada con React, utilizando material ui para los estilos, commerceJs y stripe para las funcionalidades.',
+    url: 'https://amazingcommerce.netlify.app/'
   }
 ]
 export const proyectosAngular = [
@@ -246,5 +260,21 @@ export const proyectosNode = [
     nombre: 'WebServer simple',
     descripcion: 'WebServer creado con nodejs,express y hbs para las vistas.',
     url: 'https://github.com/francoandes12/webserver'
+  },
+  {
+    id: 39,
+    nombre: 'Rest Server',
+    descripcion:
+      'Rest Api creado con node js, utilizando express,mongoDB,mongoose,jsonwebtoken,bcrypt para encriptar las contraseñas y google auth para loguearse con Google SignIn.',
+    url: 'https://github.com/francoandes12/rest-server'
+  }
+]
+export const proyectosDesktop = [
+  {
+    id: 38,
+    nombre: 'Fav links App',
+    descripcion:
+      'Es una app de escritorio creada con Electron js.consta de agregar enlaces favoritos, que se iran guardando en el local storage y mostrando en una lista.',
+    url: 'https://github.com/francoandes12/fav-links'
   }
 ]

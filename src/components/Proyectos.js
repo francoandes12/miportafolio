@@ -7,6 +7,7 @@ import {
 } from '../data/proyectos'
 import { CargarProyectos } from '../helper/cargarProyectos'
 import { Helmet } from 'react-helmet'
+import { proyectosDesktop } from './../data/proyectos'
 const Proyectos = () => {
   return (
     <div className='container bg-dark mt-3'>
@@ -35,6 +36,10 @@ const Proyectos = () => {
           <h2>Proyectos de Backend con NodeJs.</h2>
         </div>
         <CargarProyectos proyectos={proyectosNode} />
+        <div className='col-12 text-center text-primary bg-light mb-2 p-1 p-md-2'>
+          <h2>Proyectos de escritorio</h2>
+        </div>
+        <CargarProyectos proyectos={proyectosDesktop} />
       </div>
     </div>
   )
