@@ -215,6 +215,20 @@ export const proyectosReact = [
     descripcion:
       'Pagina Ecommerce creada con React, utilizando material ui para los estilos, commerceJs y stripe para las funcionalidades.',
     url: 'https://amazingcommerce.netlify.app/'
+  },
+  {
+    id: 40,
+    nombre: 'Devter',
+    descripcion:
+      'Clon de la red social twitter pero para programadores.Creado siguiendo los directos de @midudev en youtube.Esta hecho con el framework de React Nest Js, utilizando firebase para el storage y la autenticacion y deploy en vercel. Se puede autenticar solo con Github',
+    url: 'https://devter-devit.vercel.app/'
+  },
+  {
+    id: 41,
+    nombre: 'Clima App- con react',
+    descripcion:
+      'Aplicacion del clima creada con React Js utilizando la api de OpenWheather.',
+    url: 'https://clima-asreact.netlify.app/'
   }
 ]
 export const proyectosAngular = [
