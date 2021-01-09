@@ -22,17 +22,20 @@ const About = () => {
           />
         </div>
         <div className='col-12 col-md-6 text-center bg-light'>
-          <p className='bg-dark text-white'>
-            Mi nombre es Franco Ibarra, tengo 24 años y naci en Córdoba
-            Capital.Actualmente estudio en 3 año en la carrera Analista
-            Universitario de Sistemas Informaticos.Hace 2 años empezo mi gusto
-            por la programacion web.Me especializo en el frontend utilizando
-            React.
+          <p className='bg-dark text-white about'>
+            Mi nombre es Franco Ibarra, tengo 24 años y naci en la ciudad de
+            Córdoba, Argentina.Actualmente estudio en 3 año en la carrera
+            Analista Universitario de Sistemas Informaticos.Hace 2 años empezo
+            mi gusto por la programacion web.Me especializo en el frontend
+            utilizando React.
+            <br />
+            Actualmente me encuentro trabajando como desarrollador frontend para
+            la empresa Novix, en Córdoba Argentina.
             <br />
             <span className='text-danger'>Mis Skills:</span>
           </p>
           <ul className='list-group'>
-            {skils.map((skil) => (
+            {skils.map(skil => (
               <li key={skil} className='list-group-item'>
                 {[...skil]}
               </li>
@@ -40,7 +43,7 @@ const About = () => {
           </ul>
           <span className='text-info'>React Skils</span>
           <ul className='list-group'>
-            {skilsReact.map((skil) => (
+            {skilsReact.map(skil => (
               <li key={skil} className='list-group-item'>
                 {[...skil]}
               </li>
@@ -65,8 +68,8 @@ const About = () => {
             <li className='list-group-item'>Kanban</li>
             <li className='list-group-item'>Clasica(Waterfall)</li>
           </ul>
-          <p className='bg-dark text-white'>
-            Actualmente me encuentro estudiando
+          <p className='bg-dark text-white about'>
+            En la actualidad, estoy estudiando mas en detalle
             <span className='text-success'> Node Js</span> y backend para poder
             convertirme en desarrollador web Full Stack Para mas informacion
             puedes visitar mi perfil en linkedin y mi cuenta de Github. Un
@@ -76,7 +79,8 @@ const About = () => {
             href='https://github.com/francoandes12'
             target='_blank'
             rel='noopener noreferrer'
-            className='btn btn-dark btn-lg mb-2'>
+            className='btn btn-dark btn-lg mb-2'
+          >
             <i className='fab fa-github mr-2'></i>
             Github
           </a>
@@ -84,7 +88,8 @@ const About = () => {
             href='https://www.linkedin.com/in/franco-ibarra/'
             target='_blank'
             rel='noopener noreferrer'
-            className='btn btn-dark btn-lg mb-2 ml-3'>
+            className='btn btn-dark btn-lg mb-2 ml-3'
+          >
             <i className='fab fa-linkedin mr-2'></i>
             Linkedin
           </a>

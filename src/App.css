@@ -35,3 +35,7 @@ a:hover {
 .card-footer a:hover {
   color: white !important;
 }
+.about {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
