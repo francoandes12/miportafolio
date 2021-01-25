@@ -28,5 +28,10 @@ export const skilsReact = [
   'Material ui',
   'React Bootstrap',
   'React Helmet',
-  'NextJs framework'
+  'NextJs framework',
+  'Formik',
+  'Yup validations',
+  'Redux Thunk',
+  'React-dropzone',
+  'React Hook Form'
 ]

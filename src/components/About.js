@@ -69,9 +69,8 @@ const About = () => {
             <li className='list-group-item'>Clasica(Waterfall)</li>
           </ul>
           <p className='bg-dark text-white about'>
-            En la actualidad, estoy estudiando mas en detalle
-            <span className='text-success'> Node Js</span> y backend para poder
-            convertirme en desarrollador web Full Stack Para mas informacion
+            En la actualidad, estoy estudiando mas en detalle el uso de algunas librerias en
+            <span className='text-primary'> REACT</span> como redux, redux-saga, Formik,entre otras.<br />Para mas informacion
             puedes visitar mi perfil en linkedin y mi cuenta de Github. Un
             saludo!
           </p>

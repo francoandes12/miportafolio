@@ -229,7 +229,14 @@ export const proyectosReact = [
     descripcion:
       'Aplicacion del clima creada con React Js utilizando la api de OpenWheather.',
     url: 'https://clima-asreact.netlify.app/'
-  }
+  },
+  {
+    id: 44,
+    nombre: 'Ultimate form',
+    descripcion:
+      'Formulario completo creado con React,react router dom,material ui para los estilos, para el manejo del form se usa react-hook-form y YUP para las validaciones.Tambien se utiliza express,morgan,cors y concurrently para levantar un server que recibe la data del front y guarda los datos en un json, junto con los files subidos.',
+    url: 'https://github.com/francoandes12/ultimate-form'
+  },
 ]
 export const proyectosAngular = [
   {
@@ -281,7 +288,21 @@ export const proyectosNode = [
     descripcion:
       'Rest Api creado con node js, utilizando express,mongoDB,mongoose,jsonwebtoken,bcrypt para encriptar las contraseñas y google auth para loguearse con Google SignIn.',
     url: 'https://github.com/francoandes12/rest-server'
-  }
+  },
+  {
+    id: 42,
+    nombre: 'Aplicacion de Tickets',
+    descripcion:
+      'Es una aplicacion de cola de tickets o turnos, creada con node js,express y sockets.io',
+    url: 'https://github.com/francoandes12/yourTurn-app'
+  },
+  {
+    id: 43,
+    nombre: 'Chat',
+    descripcion:
+      'Aplicacion de chat creado con node js,express, bootstrap y sockets.io',
+    url: 'https://github.com/francoandes12/chat-sockets'
+  },
 ]
 export const proyectosDesktop = [
   {
