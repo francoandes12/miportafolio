@@ -9,13 +9,19 @@ export const skils = [
   'Javascript Es6',
   'Jquery',
   'Typescript',
-  'Angular',
+  'Angular fundamentos',
   'Firebase',
   'Node js y gestor de paquetes NPM y Yarn',
   'NodeJs',
   'Express',
   'Nodemailer',
-  'Deployment en Github , Heroku , Netlify y Vercel.'
+  'Deployment en Github , Heroku , Netlify y Vercel.',
+  'Electron',
+  'Vue js fundamentos',
+  'date-fns',
+  'axios',
+  'Pwa',
+  'etc..',
 ]
 export const skilsReact = [
   'React fundamentos',
@@ -33,5 +39,7 @@ export const skilsReact = [
   'Yup validations',
   'Redux Thunk',
   'React-dropzone',
-  'React Hook Form'
+  'React Hook Form',
+  'react-intl',
+  'redux-saga',
 ]

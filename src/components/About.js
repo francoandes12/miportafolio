@@ -35,7 +35,7 @@ const About = () => {
             <span className='text-danger'>Mis Skills:</span>
           </p>
           <ul className='list-group'>
-            {skils.map(skil => (
+            {skils.map((skil) => (
               <li key={skil} className='list-group-item'>
                 {[...skil]}
               </li>
@@ -43,7 +43,7 @@ const About = () => {
           </ul>
           <span className='text-info'>React Skils</span>
           <ul className='list-group'>
-            {skilsReact.map(skil => (
+            {skilsReact.map((skil) => (
               <li key={skil} className='list-group-item'>
                 {[...skil]}
               </li>
@@ -51,9 +51,10 @@ const About = () => {
           </ul>
           <span className='text-info'>Otras Lenguajes</span>
           <ul className='list-group'>
-            <li className='list-group-item'>Lenguaje c#</li>
+            <li className='list-group-item'>Lenguaje c# fundamentos</li>
             <li className='list-group-item'>Winforms</li>
             <li className='list-group-item'>ASP.net(basico)</li>
+            <li className='list-group-item'>Python fundamentos</li>
           </ul>
           <span className='text-info'>Base De datos</span>
           <ul className='list-group'>
@@ -69,10 +70,13 @@ const About = () => {
             <li className='list-group-item'>Clasica(Waterfall)</li>
           </ul>
           <p className='bg-dark text-white about'>
-            En la actualidad, estoy estudiando mas en detalle el uso de algunas librerias en
-            <span className='text-primary'> REACT</span> como redux, redux-saga, Formik,entre otras.<br />Para mas informacion
-            puedes visitar mi perfil en linkedin y mi cuenta de Github. Un
-            saludo!
+            En la actualidad, estoy estudiando mas en detalle el uso de algunas
+            librerias en
+            <span className='text-primary'> REACT</span> como redux-saga y
+            typescript integrado con react.
+            <br />
+            Para mas informacion puedes visitar mi perfil en linkedin y mi
+            cuenta de Github. Un saludo!
           </p>
           <a
             href='https://github.com/francoandes12'

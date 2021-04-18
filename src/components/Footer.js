@@ -14,7 +14,8 @@ const Footer = () => {
         rel='noopener noreferrer'
         target='_blank'
         href='https://github.com/francoandes12'
-        className='text-white'>
+        className='text-white'
+      >
         Github <i className='fab fa-github'></i>
       </a>
       <ScrollUpButton AnimationDuration={650} />
